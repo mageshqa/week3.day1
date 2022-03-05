@@ -1,0 +1,16 @@
+package org.colleage;
+
+public class College {
+
+	public static void collegeName() {
+		System.out.println("College Name - from org.college.College.collgeName");
+	}
+
+	public static void collegeCode() {
+		System.out.println("College Code - from org.college.College.collgeCode");
+	}
+
+	public static void collegeRank() {
+		System.out.println("College Rank - from org.college.College.collgeRank");
+	}
+}
