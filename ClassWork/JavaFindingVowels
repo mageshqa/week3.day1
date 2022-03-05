@@ -1,0 +1,31 @@
+package week3.day1;
+
+import org.apache.logging.log4j.message.StringFormattedMessage;
+
+public class JavaStringClassWork {
+
+	public static void main(String[] args) {
+
+		// finding vowels in Education
+
+		String edu = "Education";
+		char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+		int count = 0;
+
+		String eduLowerCase = edu.toLowerCase();
+		System.out.println(eduLowerCase);
+
+		for (int i = 0; i < eduLowerCase.length() - 1; i++) {
+			char temp = eduLowerCase.charAt(i);
+
+			for (int j = 0; j < vowels.length; j++) {
+				if (temp == vowels[j]) {
+					count++;
+					System.out.println("Vowel is " + temp);
+				}
+
+			}
+		}
+		System.out.println("Total Number of vowels in word " + edu + " is " + count);
+	}
+}
