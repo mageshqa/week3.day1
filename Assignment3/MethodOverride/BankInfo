@@ -1,0 +1,16 @@
+package week3.day1;
+
+public class BankInfo {
+
+	public static void saving() {
+		System.out.println("Savings");
+	}
+
+	public static void fixed() {
+		System.out.println("Fixed");
+	}
+
+	public static void deposit() {
+		System.out.println("Deposit from BankInfo");
+	}
+}
